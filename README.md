@@ -1,2 +1,2 @@
-# DSSMV_ProjectDroid_1221307_1190555
-DSSMV_ProjectDroid_1221307_1190555
+# DSSMV_ProjectDroid_1221307
+DSSMV_ProjectDroid_1221307
