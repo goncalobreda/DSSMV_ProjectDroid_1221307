@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:padding="16dp">
+
+    <EditText
+            android:id="@+id/libraryNameEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Library Name" />
+
+    <EditText
+            android:id="@+id/libraryAddressEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Library Address"
+            android:layout_marginTop="8dp"/>
+
+    <EditText
+            android:id="@+id/libraryOpenTimeEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Open Time (e.g., 10:00)"
+            android:layout_marginTop="8dp"/>
+
+    <EditText
+            android:id="@+id/libraryCloseTimeEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Close Time (e.g., 18:00)"
+            android:layout_marginTop="8dp"/>
+
+    <Button
+            android:id="@+id/saveLibraryButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Save Library"
+            android:layout_marginTop="16dp"/>
+
+</LinearLayout>
